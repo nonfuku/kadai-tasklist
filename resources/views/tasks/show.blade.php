@@ -8,12 +8,14 @@
                 <tr>
                     <th scope="col">id</th>
                     <th scope="col">タスク</th>
+                    <th scope="col">ステータス</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>{{ $task->id }}</td>
                     <td>{{ $task->content }}</td>
+                    <td>{{ $task->status }}</td>
                 </tr>
             </tbody>
         </table>
